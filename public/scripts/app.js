@@ -39,7 +39,7 @@ define([
             name: 'Predix Seed',
             session: {},
             tabs: [
-                {icon: 'fa-tachometer', state: 'dashboards', label: 'Dashboards'},
+                {icon: 'fa-tachometer', state: 'defectratio', label: 'Defect Ratio Dashboard'},
                 {icon: 'fa-file-o', state: 'blankpage', label: 'Blank Page', subitems: [
                     {state: 'blanksubpage', label: 'Blank Sub Page'}
                 ]}

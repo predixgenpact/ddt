@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #IMPORTANT ANNOUNCEMENT
 On or after September 30, 2016 the "master" branch of this project will be replaced by a version with these main changes:  
 
@@ -413,7 +412,3 @@ with the terms and conditions stipulated in the agreement/contract
 under which the software has been supplied.
 
 
-=======
-# ddt
-Debrief Defect Tool
->>>>>>> 8e9625df9998d26d15ff7f85a229a38e36e6be91

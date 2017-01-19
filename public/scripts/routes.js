@@ -29,6 +29,11 @@ define(['angular', 'angular-ui-router'], function(angular) {
                     }]
                 }
             })*/
+            .state('defectratio', {
+                url: '/defectratio',
+                templateUrl: 'views/defect-ratio-dashboard.html',
+                controller: 'DefectRatioDashboardCtrl'
+            })
             .state('dashboards', {
                // parent: 'secure',
                 url: '/dashboards',
@@ -47,8 +52,8 @@ define(['angular', 'angular-ui-router'], function(angular) {
 
         $urlRouterProvider.otherwise(function ($injector) {
             var $state = $injector.get('$state');
-            document.querySelector('px-app-nav').markSelected('/dashboards');
-            $state.go('dashboards');
+            document.querySelector('px-app-nav').markSelected('/defectratio');
+            $state.go('defectratio');
         });
 
     }]);
